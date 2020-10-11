@@ -1,0 +1,11 @@
+Execution: 
+
+(terminal 1) 
+gcc httpserver.c -o server 
+./server 'www.dhanoop.com' '/home/dhanoopbhaskar/coding/http/dir/' 4444 
+
+(terminal 2) 
+gcc httpclient.c -o client 
+./client '192.168.0.6/abc.txt' 4444 
+./client '192.168.0.6/abc.html' 4444 
+./client '192.168.0.6/abc.pdf' 4444
